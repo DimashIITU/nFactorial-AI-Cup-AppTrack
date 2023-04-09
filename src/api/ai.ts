@@ -2,7 +2,7 @@ import { Configuration, OpenAIApi } from 'openai';
 import { chatToken, instance } from './axios';
 
 const configuration = new Configuration({
-  organization: 'org-rGWXwIvqku1FTxWme8WhjWe3',
+  organization: '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',
   apiKey: chatToken,
 });
 const openai = new OpenAIApi(configuration);
