@@ -1,5 +1,5 @@
 import axios from 'axios';
-export const chatToken = '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';
+export const chatToken = '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';
 
 export const instance = axios.create({
   headers: {
