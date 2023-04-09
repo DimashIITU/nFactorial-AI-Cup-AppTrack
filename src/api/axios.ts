@@ -1,6 +1,5 @@
 import axios from 'axios';
-export const chatToken =
-  process.env.AI_KEY || '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';
+export const chatToken = process.env.AI_KEY;
 
 export const instance = axios.create({
   headers: {
